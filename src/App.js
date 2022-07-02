@@ -1,9 +1,15 @@
 import React from 'react';
-import About from "./components/About"
+import Nav from './components/Nav';
+import About from './components/About';
 
 function App() {
+
   return (
     <div>
+      <Nav />
+      <main>
+          <About />        
+      </main>
     </div>
   );
 }
